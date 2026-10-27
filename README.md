@@ -25,9 +25,12 @@ The strategy trailed buy-and-hold. Most of the gap came from time in cash: after
 
 ## Limitations
 
-- One asset and mostly a bull market
-- Few trades on a monthly chart
-- No taxes, and cash earns 0%
+- **one period.** 2009–2026 was mostly a bull market, which makes buy-and-hold very hard to beat. Different decades could tell a different story.
+- **Small sample.** Monthly charts produce relatively few trades, so a couple of good or bad trades move the numbers a lot.
+- **I designed the rules by looking at charts,** and the thresholds (RSI 80, top 10% stretch) were not tested out-of-sample, so some data snooping is likely.
+- **Monthly closes hide what happens inside the month.** Real losses before a sell signal could be larger than shown.
+- **Cash earns nothing here,** and the Sharpe ratio assumes a 0% risk-free rate, which understates any strategy that spends time in cash.
+- **Taxes are ignored.** Frequent selling realizes gains that buy-and-hold would defer, so after tax the gap would likely be wider.
 
 ## Next
 
